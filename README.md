@@ -1,61 +1,69 @@
 # spring-boot-best-practice
 
-Spring Boot 最佳实践，更多正在更新中……
+> :rocket: 本仓库提供了 Spring Boot 主流知识点实战示例，大家可以随意下载学习。
+>
+> :star: 本项目会长期更新，为避免迷路，请点击右上角 **Star** 关注本项目。
 
-栈长博客：https://www.javastack.cn
+## :fire: 为什么要学 Spring Boot？
 
-## Spring Boot 教程
+Spring 作为 Java 开发界的万能框架，曾经和 Struts2、Hibernate 框架组成 SSH，成为 Java Web 开发的三驾马车。大概在 2013 年左右，又和 Spring MVC、MyBatis 框架组成 SSM，成为新一代的 Web 开发框架全家桶，一直流行延续至今。
 
-- [什么是 Spring Boot?](https://mp.weixin.qq.com/s/jWLcPxTg9bH3D9_7qbYbfw)
-- [Spring Boot 一份超详细的知识清单](https://mp.weixin.qq.com/s/1yxsCD3IxopIWYceA54Ayw)
-- [Spring Boot 开启的 2 种方式](https://mp.weixin.qq.com/s/PYM_iV-u3dPMpP3MNz7Hig)
-- [Spring Boot 主类及目录结构介绍](https://mp.weixin.qq.com/s/auJGrOFVGlH8uzdk9SIHPw)
-- [Spring Boot 核心配置文件详解](https://mp.weixin.qq.com/s/BzXNfBzq-2TOCbiHG3xcsQ)
-- [Spring Boot 核心配置](https://mp.weixin.qq.com/s/H144Kq4-A2Jlz1ijcQJURA)
-- [Spring Boot 最核心的 3 个注解详解](https://mp.weixin.qq.com/s/kNvy_0jb4oJtYdaxryq5xg)
-- [Spring Boot 运行应用的 3 种方式](https://mp.weixin.qq.com/s/lZsQnvlR38TLuV--D3F7Ag)
-- [Spring Boot Starters启动器](https://mp.weixin.qq.com/s/9HJVGlplze5p0eBayvhFCA)
-- [Spring Boot Runner 启动器](https://mp.weixin.qq.com/s/WeO2kJLV6LKez56T5GG35Q)
-- [Spring Boot Profile 不同环境配置](https://mp.weixin.qq.com/s/K0kdQwoo2t5FDsTUJttSAA)
-- [Spring Boot 功能实战](https://mp.weixin.qq.com/s/rrpXE8PnYdilsCQf2J3w9w)
-- [Spring Boot 自动配置原理、实战](https://mp.weixin.qq.com/s/gs2zLSH6m9ijO0-pP2sr9Q)
-- [Spring Boot 读取配置的几种方式](https://mp.weixin.qq.com/s/aen2PIh0ut-BSHad-Bw7hg)
-- [Spring Boot 配置加载顺序详解](https://mp.weixin.qq.com/s/tFrRMM25LVE_2AG23lK5qQ)
-- [Spring Boot Server 容器配置](https://mp.weixin.qq.com/s/aEghlvBHE9rpfsAjiq1Kfw)
-- [Spring Boot 日志集成](https://mp.weixin.qq.com/s/OAyzUNIgBPkPVCy23gh-WA)
-- [Spring Boot 定制启动图案](https://mp.weixin.qq.com/s/-Fy5A6LP1n2DMdPPsa5oVg)
-- [Spring Boot 整合 Thymeleaf 模板引擎](https://mp.weixin.qq.com/s/zqyy_kmF0hkJrdhE-mjzlA)
-- [Spring Boot 国际化支持](https://mp.weixin.qq.com/s/NSmxsn242T5pUaGp2ncvow)
-- [Spring Boot Debug 调试](https://mp.weixin.qq.com/s/xLaxWFQw5ZLnR-z-5Zz2Rg)
-- [Spring Boot 实现热部署](https://mp.weixin.qq.com/s/uv8jIztilO_QvGc7qGhSAA)
-- [Spring Boot 发布 jar 包转为 war 包](https://mp.weixin.qq.com/s/RQAPIwQJ2jMmlcM76LJhSQ)
-- [Spring Boot 集成 Mybatis 实现双数据源](https://mp.weixin.qq.com/s/nRTsbZRgT92ZcXQLkEzaSA)
-- [Spring Boot 单元测试详解+实战教程](https://mp.weixin.qq.com/s/6vLJC-zPbwwlT7eXo3_Zww)
-- [Spring Boot 配置随机数那些小技巧](https://mp.weixin.qq.com/s/UJRcejQaBVLIcblLD-fkMQ)
-- [Spring Boot 16 条最佳实践](https://mp.weixin.qq.com/s/2-MZ5KVlKMyxt6bWlDeW7Q)
-- [Spring Boot 应用保护 10 个绝佳方法](https://mp.weixin.qq.com/s/HG4_StZyNCoWx02mUVCs1g)
-- [Spring Boot 启动全过程源码分析](https://mp.weixin.qq.com/s/iMPXjuKRKT5lMZ4oVSp4Ww)
-- [Spring Boot 最核心的 25 个注解](https://mp.weixin.qq.com/s/lOA9djEptJyZ2sm93nxr-Q)
-- [Spring Boot 集成 Swagger](https://mp.weixin.qq.com/s/C6sihvoTdGelnZFIubituA)
-- [Spring Boot 2.2 增加了一个新功能，启动飞起](https://mp.weixin.qq.com/s/-9WzbjV8fT5TcjeePaagJg)
-- [Spring Boot 注册 Servlet 的三种方法](https://mp.weixin.qq.com/s/oYEybZmxllGVbml1a5BPNw)
-- [Spring Boot 面试，一个问题就干趴下了！](https://mp.weixin.qq.com/s/bwEUjGpanaepY7YqB0eFFQ)
-- [Spring Boot 配置文件 bootstrap / application 区别](https://mp.weixin.qq.com/s/cKZe5AY5TMYOLWgRZ9Brpg)
-- [Spring Boot 支持 HTTPS](https://mp.weixin.qq.com/s/JAFBb7Wf34b2TM4F7ZoloQ)
-- [Spring Boot 返回 JSON 数据](https://mp.weixin.qq.com/s/cFztjzQttMwBQJqAowUZ2A)
-- [Spring Boot 返回 XML 数据](https://mp.weixin.qq.com/s/hQNRuNFmx8hDymYuSvKACA)
-- [Spring Boot 发邮件教程](https://mp.weixin.qq.com/s/JclkM4weUxQrMMZi33GFSA)
-- [Spring Boot YML 掀翻 Properties](https://mp.weixin.qq.com/s/jCvtSI46tqYGipfldHcUvQ)
-- [Spring Boot 1.x 正式退役，2.x大步向前](https://mp.weixin.qq.com/s/EXPNMLpwMeDueCmfiHSSew)
-- [Spring Boot 2.x 新特性总结及迁移指南](https://mp.weixin.qq.com/s/-WWBvWpD0Prib02XoU1sjw)
+**而为了简化 Spring 框架的上手难度**，Spring Boot 框架于 2014 年诞生，可以帮助开发者更加轻松、快捷地使用 Spring 的组件，它是 Spring、Spring MVC 等框架更上一层的框架，它需要依赖于 Spring、Spring MVC 等原生框架，而不能独立存在。
 
-...
+学会 Spring Boot，可以简化使用 Spring 基础组件的难度，还是学习 Spring Cloud 微服务框架的基础，**因为 Spring Cloud 的基础就是 Spring Boot。**
 
-以上仅为部分教程，太多了，这里不能全部展示，这里仅不定期更新维护示例代码。
+Spring Boot 代表了企业的真实需求，它表现在 Java 工程师、架构师的**求职面试技能清单上，Spring Boot 几乎是必备技能。** 所以，要成为合格的 Java 程序员，要学习 Spring 全家桶，Spring Boot 则是必经之路。
 
-更多教程请在Java技术栈（id: javastack）公众号回复：boot，获取我整理的最全、最新的 Spring Boot 教程，微信公众号阅读更全、更及时！
+## :heart: Spring Boot 学习资料
 
-![](http://img.javastack.cn/18-11-16/79719805.jpg)
+这里分享一份 **Spring Boot 学习资料**，包括 Spring Boot 底层实现原理及代码实战，非常齐全，助你快速打通 Spring Boot 的各个环节。
 
+**详细目录如下：**
 
+- Spring Boot Hello World
+- Spring Boot 返回 JSON 数据
+- Spring Boot 使用其他 JSON 转换框架
+- Spring Boot 全局异常捕捉
+- Spring Boot JPA 连接数据库
+- Spring Boot 配置 JPA
+- Spring Boot 整合 JPA 保存数据
+- Spring Boot 使用 JdbcTemplate 保存数据
+- Spring Boot 常用配置
+- Spring Boot 静态资源处理
+- Spring boot 实现任务调度 
+- Spring Boot 普通类调用 Bean
+- Spring Boot 使用模板引擎
+- Spring Boot 集成 JSP
+- Spring Boot 集成 Servlet
+- Spring Boot 集成 Fliter 和 Listener
+- Spring Boot 拦截器 HandlerInterceptor
+- Spring Boot 系统启动任务 CommandLineRunner
+- Spring Boot 集成 JUnit 单元测试
+- Spring Boot 读取系统环境变量
+- Spring Boot 使用自定义 properties
+- Spring Boot 改变默认包扫描
+- Spring Boot 自定义启动 Banner
+- Spring Boot 导入 Spring XML 配置文件
+- Spring Boot 热部署
+- Spring Boot 监控和管理生产环境
+- Spring Boot Starter 详解
+- Spring Boot 依赖的版本
+- Spring Boot 文件上传
+- Spring Boot 集成 Redis 缓存
+- Spring Boot 之 Spring Cache
+- Spring Boot 集成 Ehcache
+- Spring Boot 分布式 Session 共享
+- ......
+
+**共 108 页！非常齐全！**
+
+**获取方式如下：**
+
+这份教程免费分享给大家，微信扫码关注 **Java技术栈** 公众号：
+
+<p align="center">
+  <img src="http://img.javastack.cn/18-11-16/79719805.jpg">
+</p>
+
+关注后，在公众号后台发送关键字：**666**，公众号会自助推送给你。
 
